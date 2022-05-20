@@ -1,0 +1,46 @@
+
+.CBC{
+    border-collapse: collapse;
+    font-size: small;
+    min-width: 400px;
+    margin: 25px 0;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px black(0, 0, 0, 0, 15);
+
+    
+}
+
+.CBC,thead{
+    background-color: aqua;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.CBC,th{
+
+}
+
+.CBC,td{
+  padding: 12px 15px;  
+}
+
+.CBC,tbody, tr{
+    border-bottom: 1px solid gray;
+}
+
+.CBC,tbody, tr:nth-of-type(even){
+    background-color: lightgray;
+}
+
+.CBC,tbody, tr:last-of-type{
+    border-bottom: 2px solid aqua;
+}
+
+.CBC,tbody, tr.active-row{
+    font-weight: bold;
+    color: aqua;
+}
+
