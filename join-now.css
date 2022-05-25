@@ -1,0 +1,115 @@
+*{
+    position: relative;
+}
+
+.dive{
+    font-size: xx-large;
+    color: #ea786f;
+    text-align: center;
+}
+
+/*header*/
+
+.main-header{
+    background-color: #2ddf5c;
+    width: 100%;
+    padding: 15px 10px;
+}
+
+.main-header > div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.brand-logo{
+    text-decoration: none;
+    color: #0e4f1f;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.main-nav{
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(100% - 116px);
+}
+
+.main-nav-links{
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.main-nav-link{
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.main-nav-link > a{
+    text-decoration: none;
+    color: #0e4f1f;
+}
+
+.main-nav-link-cta > a{
+    background-color: rgb(255, 0, 0);
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 16px;
+}
+
+.main-nav-link > a:hover{
+    color: #ffffff;
+    border-bottom: 2px #ffffff solid;
+}
+
+.main-nav-link-cta > a:hover{
+    color: red;
+    background-color: #ffffff;
+    border: none;
+}
+
+/*body*/
+
+form {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Form{
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    label{
+        display: block;
+
+    }
+
+    input, textarea{
+        display: block;
+        width: 100%;
+
+    }
+}
+
+
+input {
+    background-color: #ea786f;
+    outline: none;
+}
+
+select {
+    width: 300px;
+    background-color: #b3d8b9;
+}
+
+input[type = text],
+input[type = email],
+input[type = password]{
+    width: 300px;
+}
+
+input[type = submit] {
+    background-color: #0e4f1f;
+    color: white;
+}
