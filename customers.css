@@ -1,0 +1,45 @@
+/*header*/
+
+
+/*main &section*/
+
+section {
+    width: 83%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section h2 {
+    color: #ea786f;
+}
+
+section span {
+    color: #c5c4c4;
+}
+
+.text-box {
+    width: 15%;
+}
+
+.customer {
+    width: 75%;
+}
+
+.customer img {
+    width: 100%;
+}
+
+.customer-2 p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.right-part {
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
